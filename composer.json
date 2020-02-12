@@ -4,7 +4,15 @@
 	"license": "GPL-3.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"oomphinc/composer-installers-extender": "*"
+		"oomphinc/composer-installers-extender": "*",
+		"wpackagist-theme/twentytwenty":"*",
+		"wpackagist-plugin/query-monitor":"*",
+		"wpackagist-plugin/debug-bar":"*",
+		"wpackagist-plugin/debug-bar-extender":"*",
+		"wpackagist-plugin/debug-bar-cron":"*",
+		"wpackagist-plugin/debug-bar-transients":"*",
+		"wpackagist-plugin/log-deprecated-notices":"*",
+		"wpackagist-plugin/rewrite-rulesinspector":"*",
 	},
 	"require-dev": {},
 	"minimum-stability": "dev",
