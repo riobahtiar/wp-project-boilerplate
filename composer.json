@@ -1,5 +1,5 @@
 {
-	"name": "wp-base",
+	"name": "wp-project-boilerplate",
 	"type": "project",
 	"license": "GPL-3.0-or-later",
 	"require": {
@@ -17,7 +17,7 @@
 	],
 	"config": {
 		"platform": {
-			"php": "7.2"
+			"php": "7.3"
 		}
 	},
 	"extra": {
