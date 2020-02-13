@@ -7,13 +7,13 @@
 	"authors": [
         {
             "name": "Rio Bahtiar",
-            "homepage": "http://www.rio.my.id",
+            "homepage": "http://www.rio.my.id"
         }
     ],
 	"require": {
-		"php": "7.2",
+		"php": "7.3",
         "oomphinc/composer-installers-extender": "*",
-        "johnpbloch/wordpress": "^5.3",
+        "johnpbloch/wordpress": "~5.3.0",
 		"wpackagist-theme/twentytwenty":"*",
 		"wpackagist-plugin/query-monitor":"*",
 		"wpackagist-plugin/debug-bar":"*",

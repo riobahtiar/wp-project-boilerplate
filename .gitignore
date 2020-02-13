@@ -9,6 +9,7 @@ wpremote
 *-backups
 /node_modules/
 /vendor/
+/core/
 
 ### WordPress local dev ###
 local.php
