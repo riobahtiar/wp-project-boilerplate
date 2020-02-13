@@ -1,1 +1,1 @@
-# wp-base
+# Simple WordPress Project Boilerplate (WIP)

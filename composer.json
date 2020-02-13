@@ -1,7 +1,16 @@
 {
-	"name": "wp-project-boilerplate",
+	"name": "riobahtiar/wp-project-boilerplate",
 	"type": "project",
+	"keywords": ["wordpress", "boilerplate", "php"],
 	"license": "GPL-3.0-or-later",
+	"authors": [
+        {
+            "name": "Rio Bahtiar",
+            "email": "akhibahtiar@gmail.com",
+            "homepage": "http://www.rio.my.id",
+            "role": "Developer"
+        }
+  ],
 	"require": {
 		"php": ">=7.2",
 		"oomphinc/composer-installers-extender": "*",
@@ -11,8 +20,7 @@
 		"wpackagist-plugin/debug-bar-extender":"*",
 		"wpackagist-plugin/debug-bar-cron":"*",
 		"wpackagist-plugin/debug-bar-transients":"*",
-		"wpackagist-plugin/log-deprecated-notices":"*",
-		"wpackagist-plugin/rewrite-rulesinspector":"*",
+		"wpackagist-plugin/log-deprecated-notices":"*"
 	},
 	"require-dev": {},
 	"minimum-stability": "dev",
@@ -33,6 +41,9 @@
 			"library"
 		],
 		"installer-paths": {
+			"content/themes/{$name}/": [
+				"type:wordpress-theme"
+			],
 			"content/mu-plugins/{$name}/": [
 				"type:wordpress-muplugin"
 			],
